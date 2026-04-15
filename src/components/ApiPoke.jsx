@@ -1,4 +1,4 @@
-const ApiExample = () => {
+const ApiPoke = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -43,4 +43,4 @@ const ApiExample = () => {
   );
 };
 
-export default ApiExample;
+export default ApiPoke;
