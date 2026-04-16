@@ -1,8 +1,6 @@
-import { useState, useEffect } from "react";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-
-import App from "./App";
+import App from "./src/app.jsx";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
